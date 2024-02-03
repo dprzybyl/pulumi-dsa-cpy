@@ -2,8 +2,6 @@ module provider-dsa
 
 go 1.21
 
-toolchain go1.21.5
-
 require (
 	github.com/dprzybyl/pulumi-dsa/sdk v0.0.0-20240203135147-93a727e1dc90
 	github.com/pulumi/pulumi/sdk/v3 v3.104.2
