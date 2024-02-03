@@ -1,2 +1,2 @@
-// Package xyz exports types, functions, subpackages for provisioning xyz resources.
-package xyz
+// Package dsa exports types, functions, subpackages for provisioning dsa resources.
+package dsa
