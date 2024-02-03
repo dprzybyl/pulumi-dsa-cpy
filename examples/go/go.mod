@@ -1,4 +1,4 @@
-module provider-dsa-native
+module provider-dsa
 
 go 1.20
 

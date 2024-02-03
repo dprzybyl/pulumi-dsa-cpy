@@ -1,4 +1,4 @@
-name: provider-dsa-native
+name: provider-dsa
 runtime: nodejs
 plugins:
   providers:

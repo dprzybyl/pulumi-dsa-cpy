@@ -1,5 +1,5 @@
 {
-	"name": "provider-dsa-native",
+	"name": "provider-dsa",
 	"devDependencies": {
 		"@types/node": "^14"
 	},

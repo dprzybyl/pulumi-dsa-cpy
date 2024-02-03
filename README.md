@@ -39,7 +39,7 @@ Pulumi offers this repository as a [GitHub template repository](https://docs.git
 1. Click "Use this template".
 1. Set the following options:
    * Owner: pulumi 
-   * Repository name: pulumi-dsa-native (replace "dsa" with the name of your provider)
+   * Repository name: pulumi-dsa (replace "dsa" with the name of your provider)
    * Description: Pulumi provider for dsa
    * Repository type: Public
 1. Clone the generated repository.
