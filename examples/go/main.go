@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/pulumi/pulumi-dsa/sdk/go/dsa"
+	"github.com/dprzybyl/pulumi-dsa/sdk/go/dsa"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
 )
 

@@ -25,7 +25,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	dsa "github.com/pulumi/pulumi-dsa/provider"
+	dsa "github.com/dprzybyl/pulumi-dsa/provider"
 )
 
 func TestRandomCreate(t *testing.T) {

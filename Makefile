@@ -2,7 +2,7 @@ PROJECT_NAME := Pulumi Dsa Resource Provider
 
 PACK             := dsa
 PACKDIR          := sdk
-PROJECT          := github.com/pulumi/pulumi-dsa
+PROJECT          := github.com/dprzybyl/pulumi-dsa
 NODE_MODULE_NAME := @pulumi/dsa
 
 PROVIDER        := pulumi-resource-${PACK}

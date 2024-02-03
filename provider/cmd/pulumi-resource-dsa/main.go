@@ -17,7 +17,7 @@ package main
 import (
 	p "github.com/pulumi/pulumi-go-provider"
 
-	dsa "github.com/pulumi/pulumi-dsa/provider"
+	dsa "github.com/dprzybyl/pulumi-dsa/provider"
 )
 
 // Serve the provider against Pulumi's Provider protocol.
