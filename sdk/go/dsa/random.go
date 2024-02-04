@@ -5,11 +5,11 @@ package dsa
 
 import (
 	"context"
-	"github.com/dprzybyl/pulumi-dsa/sdk/go/dsa/utils"
 	"reflect"
 
 	"errors"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
+	"internal"
 )
 
 type Random struct {
@@ -29,7 +29,7 @@ func NewRandom(ctx *pulumi.Context,
 	if args.Length == nil {
 		return nil, errors.New("invalid value for required argument 'Length'")
 	}
-	opts = utils.PkgResourceDefaultOpts(opts)
+	opts = internal.PkgResourceDefaultOpts(opts)
 	var resource Random
 	err := ctx.RegisterResource("dsa:index:Random", name, args, &resource, opts...)
 	if err != nil {

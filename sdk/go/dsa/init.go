@@ -5,10 +5,10 @@ package dsa
 
 import (
 	"fmt"
-	"github.com/dprzybyl/pulumi-dsa/sdk/go/dsa/utils"
 
 	"github.com/blang/semver"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
+	"internal"
 )
 
 type module struct {
@@ -50,7 +50,7 @@ func (p *pkg) ConstructProvider(ctx *pulumi.Context, name, typ, urn string) (pul
 }
 
 func init() {
-	version, err := utils.PkgVersion()
+	version, err := internal.PkgVersion()
 	if err != nil {
 		version = semver.Version{Major: 1}
 	}
