@@ -3,7 +3,7 @@ module provider-dsa
 go 1.21
 
 require (
-	github.com/dprzybyl/pulumi-dsa/sdk v0.0.0-20240203184712-fc7d22bdf2f7
+	github.com/dprzybyl/pulumi-dsa/sdk v0.0.0-20240204233916-7011740c948d
 	github.com/pulumi/pulumi/sdk/v3 v3.104.2
 )
 
@@ -13,6 +13,7 @@ require (
 	github.com/ProtonMail/go-crypto v1.0.0 // indirect
 	github.com/aead/chacha20 v0.0.0-20180709150244-8b13a72661da // indirect
 	github.com/agext/levenshtein v1.2.3 // indirect
+	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
 	github.com/apparentlymart/go-textseg/v15 v15.0.0 // indirect
 	github.com/atotto/clipboard v0.1.4 // indirect
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
