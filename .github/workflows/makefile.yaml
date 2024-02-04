@@ -32,7 +32,6 @@ jobs:
       name: Unshallow clone for tags
       id: tags
       run: |
-        pwd
         sudo chown -R $(whoami) /__w/pulumi-dsa/pulumi-dsa
         git config --global --add safe.directory /__w/pulumi-dsa/pulumi-dsa
         git fetch --prune --unshallow --tags
