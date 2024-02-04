@@ -2,6 +2,8 @@ module github.com/dprzybyl/pulumi-dsa/sdk
 
 go 1.21
 
+replace github.com/dprzybyl/pulumi-dsa/sdk/go/dsa/utils => ./go/dsa/utils
+
 require (
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/pulumi/pulumi/sdk/v3 v3.104.2

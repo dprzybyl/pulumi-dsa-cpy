@@ -13,9 +13,9 @@ func main() {
 		if err != nil {
 			return err
 		}
-		ctx.Export("output", pulumi.Map(map[string]pulumi.Input{
+		ctx.Export("output", pulumi.Map{
 			"value": myRandomResource.Result,
-		}))
+		})
 		return nil
 	})
 }

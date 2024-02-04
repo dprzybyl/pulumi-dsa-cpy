@@ -7,8 +7,8 @@ import (
 	"context"
 	"reflect"
 
+	"github.com/dprzybyl/pulumi-dsa/sdk/go/dsa/utils"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
-	"internal"
 )
 
 type Provider struct {
@@ -22,7 +22,7 @@ func NewProvider(ctx *pulumi.Context,
 		args = &ProviderArgs{}
 	}
 
-	opts = internal.PkgResourceDefaultOpts(opts)
+	opts = utils.PkgResourceDefaultOpts(opts)
 	var resource Provider
 	err := ctx.RegisterResource("pulumi:providers:dsa", name, args, &resource, opts...)
 	if err != nil {
